@@ -2,6 +2,14 @@
 
 Projeto Python para o Challenge Motiva/FIAP, com notebook **executado**, algoritmos documentados e resultados.
 
+Integrantes:
+
+Igor Davi Avelar Rosa Cesário — RM 568163
+
+Patrick Castro Quintana — RM 575906
+
+Rafael Menezes Viana — RM 576753
+
 ## O que veio dos arquivos oficiais
 
 Foram lidas as planilhas **`ecr_2025.XLSX` e `ecr_2026.XLSX`** do ZIP enviado pelo grupo. Foram extraídas **17,951 ocorrências válidas**, de **197 escadas** distribuídas por **12 códigos de estação**. Foram ignoradas ocorrências sem código `-ECR-XXX-ERnn` reconhecível ou com datas inválidas. O CSV `dados/ocorrencias_motiva_2025_2026.csv` contém o recorte necessário para reproduzir os cálculos.
