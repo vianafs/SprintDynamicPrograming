@@ -1,0 +1,200 @@
+{
+  "base": "BASE_SIMULADA",
+  "observacao": "Estacoes extraidas de codigos de Local de Instalacao. Arestas, tempos, base e coordenadas HIPOTETICOS; nao representam a malha operacional oficial.",
+  "nos": [
+    {
+      "nome": "BASE_SIMULADA",
+      "x_km_ilustrativo": -1,
+      "y_km_ilustrativo": 0,
+      "tipo": "base hipotetica"
+    },
+    {
+      "nome": "LUZ",
+      "x_km_ilustrativo": 0.0,
+      "y_km_ilustrativo": 0.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "REP",
+      "x_km_ilustrativo": 1.4,
+      "y_km_ilustrativo": 0.5,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "PIN",
+      "x_km_ilustrativo": 2.8,
+      "y_km_ilustrativo": 1.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "FRA",
+      "x_km_ilustrativo": 4.199999999999999,
+      "y_km_ilustrativo": 0.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "FAL",
+      "x_km_ilustrativo": 5.6,
+      "y_km_ilustrativo": 0.5,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "BUT",
+      "x_km_ilustrativo": 7.0,
+      "y_km_ilustrativo": 1.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "PTA",
+      "x_km_ilustrativo": 8.399999999999999,
+      "y_km_ilustrativo": 0.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "HIG",
+      "x_km_ilustrativo": 9.799999999999999,
+      "y_km_ilustrativo": 0.5,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "MBI",
+      "x_km_ilustrativo": 11.2,
+      "y_km_ilustrativo": 1.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "VSO",
+      "x_km_ilustrativo": 12.6,
+      "y_km_ilustrativo": 0.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "FRE",
+      "x_km_ilustrativo": 14.0,
+      "y_km_ilustrativo": 0.5,
+      "tipo": "codigo de estacao extraido do dataset"
+    },
+    {
+      "nome": "TVS",
+      "x_km_ilustrativo": 15.399999999999999,
+      "y_km_ilustrativo": 1.0,
+      "tipo": "codigo de estacao extraido do dataset"
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "BASE_SIMULADA",
+      "destino": "LUZ",
+      "minutos": 7,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "LUZ",
+      "destino": "REP",
+      "minutos": 4,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "REP",
+      "destino": "PIN",
+      "minutos": 5,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "PIN",
+      "destino": "FRA",
+      "minutos": 6,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "FRA",
+      "destino": "FAL",
+      "minutos": 7,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "FAL",
+      "destino": "BUT",
+      "minutos": 4,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "BUT",
+      "destino": "PTA",
+      "minutos": 5,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "PTA",
+      "destino": "HIG",
+      "minutos": 6,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "HIG",
+      "destino": "MBI",
+      "minutos": 7,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "MBI",
+      "destino": "VSO",
+      "minutos": 4,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "VSO",
+      "destino": "FRE",
+      "minutos": 5,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "FRE",
+      "destino": "TVS",
+      "minutos": 6,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "LUZ",
+      "destino": "PIN",
+      "minutos": 8,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "PIN",
+      "destino": "FAL",
+      "minutos": 9,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "FAL",
+      "destino": "PTA",
+      "minutos": 10,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "PTA",
+      "destino": "MBI",
+      "minutos": 9,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "MBI",
+      "destino": "FRE",
+      "minutos": 8,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "BUT",
+      "destino": "HIG",
+      "minutos": 6,
+      "origem_peso": "hipotese didatica"
+    },
+    {
+      "origem": "VSO",
+      "destino": "TVS",
+      "minutos": 9,
+      "origem_peso": "hipotese didatica"
+    }
+  ]
+}
